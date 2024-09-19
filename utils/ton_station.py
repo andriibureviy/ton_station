@@ -20,7 +20,7 @@ class TonStation:
         self.thread = thread
 
         self.user_id, self.user_info = None, None
-        self.sp = 'ref_buzjtu7gvm6eyna393psdl'
+        self.sp = 'ref_5r2ekgzhhryoejxp7ff1ge'
         self.proxy = f"{config.PROXY['TYPE']['REQUESTS']}://{proxy}" if proxy is not None else None
         connector = ProxyConnector.from_url(self.proxy) if proxy else aiohttp.TCPConnector(verify_ssl=False)
 
