@@ -117,7 +117,7 @@ class TonStation:
         attempts = 3
         while attempts:
             try:
-                self.sp = 'ref_c5xdxw4chx7duptkojrjq5'
+                self.sp = 'ref_5r2ekgzhhryoejxp7ff1ge'
                 await asyncio.sleep(random.uniform(*config.DELAYS['ACCOUNT']))
                 query = await self.get_tg_web_data()
 
